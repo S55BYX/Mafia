@@ -5,9 +5,158 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 24px;
+  color: aliceblue;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* <-NAV-> */
+
+.top-nav{
+  background-color: #334756;
+  height: 8vh;
+  display: flex;
+  /* max-width: 95%; */
+  margin: 0 auto;
+  padding: 0 20px 0 20px;
+  align-items: center;
+}
+
+.center-nav{
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.nav-card{
+  margin: 0 5px 0 0;
+  padding: 2px;
+}
+
+.profile-im {
+  border-radius: 1000px;
+  max-height: 50px;
+  margin-left: auto;
+}
+
+/* Left Nav */
+
+.left-main{
+  position: sticky;
+  top: 0;
+  background-color: #2C394B;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  min-height: 92vh;
+}
+
+.left-button{
+  margin: 5px auto 5px auto;
+  border-radius: 5px;
+  border: none;
+  font-family: 'Bebas Neue', cursive;
+  align-items: center;
+  width: 80%;
+  font-size: 20px;
+  padding: 2px;
+  cursor: pointer;
+}
+
+/* Right body */
+
+.full-main{
+  background-color: azure;
+  display: flex;
+}
+
+.right-main{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  
+  /* align-items: center; */
+  
+  ; background-color: #082032;
+}
+
+.tran{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  
+  /* align-items: center; */
+  
+  ; background-color: #082032;
+  
+}
+
+.car-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content:center
+}
+
+.car-card{
+  border: solid;
+  width: 300px;
+  margin: 10px;
+  height: fit-content;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.car-card:hover{
+  background-color: #FF4C29;
+
+}
+
+.page-title{
+  color: #FF4C29;
+}
+
+.modal{
+  position: fixed;
+  top: 40%;
+  left: 58%;
+  transform: translate(-50%, -50%);
+  background-color: #2C394B;
+  width: 30%;
+  height: 30%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 10px;
+  flex-direction: column;
+  box-shadow: 0 7px 20px rgb(0 0 0 / 0.2);
+}
+
+.modal-button {
+  background-color: #FF4C29;
+  border: solid 1px;
+  font-family: 'Bebas Neue' ;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+/* login page */
+
+.login-container{
+  height: 100vh;
+  background-color: #2C394B;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  letter-spacing: 5px;
+}
+

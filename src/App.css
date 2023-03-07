@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
 .App {
   text-align: center;
+  font-family: 'Bebas Neue';
+  text-decoration: none;
 }
-
+/* 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -22,17 +27,4 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+} */

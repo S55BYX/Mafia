@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "Make": "Volkswagen",
+        "Model": "UP!",
+        "BHP": "50",
+        "Seats": "4",
+        "Cost": "20000"
+    },
+    {
+        "id": 2,
+        "Make": "BMW",
+        "Model": "330d",
+        "BHP": "50",
+        "Seats": "5",
+        "Cost": "20000"
+    },
+    {
+        "id": 3,
+        "Make": "Audi",
+        "Model": "A8",
+        "BHP": "50",
+        "Seats": "5",
+        "Cost": "20000"
+    },
+    {
+        "id": 4,
+        "Make": "Jeep",
+        "Model": "Wrangler",
+        "BHP": "50",
+        "Seats": "6",
+        "Cost": "50000"
+    }
+]
